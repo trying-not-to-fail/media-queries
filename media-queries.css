@@ -5,9 +5,34 @@ body {
 }
 
 .alert-info {
-    background-color: lightblue;
+    background-color: #c8eaf5;
     padding: 1em 0;
     margin: 0.5em;
     justify-content: center;
-    flex-grow: 1;
+    display: flex;
 }
+h1{
+    display: flex;
+    margin: auto;
+}
+nav{
+    /*display: flex;*/
+}
+
+.nav-links{
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.nav-links li{
+    background-color: #cbc6c6;
+   margin-bottom: .5em;
+
+}
+.header-img{
+    display: flex;
+    margin: auto;
+}
+

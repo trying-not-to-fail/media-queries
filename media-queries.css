@@ -1,5 +1,5 @@
 body {
-    margin: .5em;
+    margin: 1em;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
@@ -10,6 +10,11 @@ body {
     padding: 1em 0;
     justify-content: center;
     display: flex;
+}
+
+.alert-info > a {
+    text-decoration: none;
+    color: black;
 }
 
 h1{
@@ -42,4 +47,38 @@ img{
 
 .sub-section{
     font-style: italic;
+}
+
+@media screen and (min-width:992px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-links {
+        padding: 0 0;
+        list-style-type: none;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-links li {
+        background-color: white;
+    }
+
+    h1 {
+        display: block;
+        margin: 0;
+    }
+
+    footer {
+        margin-top: 8em;
+    }
 }

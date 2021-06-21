@@ -2,6 +2,7 @@ body {
     margin: .5em;
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 .alert-info {
@@ -14,6 +15,7 @@ body {
 h1{
     display: flex;
     margin: auto;
+    font-size: 2.5em;
 }
 
 .nav-links{
@@ -22,13 +24,12 @@ h1{
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
 }
 
 .nav-links li{
     background-color: #cbc6c6;
     margin-bottom: .5em;
-    padding: .5em;
+    padding: 1em;
 }
 
 .header-img{
@@ -39,11 +40,6 @@ img{
     width: 100%;
 }
 
-.main{
-    font-family: sans-serif;
-}
-
 .sub-section{
     font-style: italic;
-    font-family: sans-serif;
 }

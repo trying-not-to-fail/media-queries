@@ -10,12 +10,10 @@ body {
     justify-content: center;
     display: flex;
 }
+
 h1{
     display: flex;
     margin: auto;
-}
-nav{
-    /*display: flex;*/
 }
 
 .nav-links{
@@ -26,20 +24,25 @@ nav{
     flex-direction: column;
     font-family: sans-serif;
 }
+
 .nav-links li{
     background-color: #cbc6c6;
-   margin-bottom: .5em;
+    margin-bottom: .5em;
     padding: .5em;
 }
+
 .header-img{
-  width: 100%;
+    width: 100%;
 }
+
 img{
     width: 100%;
 }
+
 .main{
     font-family: sans-serif;
 }
+
 .sub-section{
     font-style: italic;
     font-family: sans-serif;
